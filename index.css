@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
+
+
+
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+
+.list {
+    display: flex;
+    gap: 38px;
+    padding-top: 30px;
+}
+
+.list_item {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: right;
+}
+
+.text_person {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    color: #21243D;
+}
+
+
+.text_all {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 48px;
+    color: #21243D;
+}
+
+.button_person {
+    font-family: 'Hebo';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding: 5px 20px;
+    border: none;
+    background: #FF6464;
+    border-radius: 2px;
+    margin-top: 30px;
+}
+
+.person_image {
+    width: 100%;
+    border-radius: 50%;
+}
+
+header {
+    padding-top: 100px;
+}
+
+.posts {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    display: flex;
+    align-items: flex-end;
+    color: #21243D;
+}
+
+.making {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+    margin-left: 23px;
+    margin-top: 24px;
+}
+
+.CARDSMALL {
+    display: flex;
+    margin-left: 23px;
+}
+
+.des {
+    margin-left: 26px;
+}
+
+.february {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+}
+
+.text_alll {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    margin-left: 23px;
+}
+
+
+.creating {
+    width: 374px;
+    height: 85px;
+    left: 609px;
+    top: 688px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+}
+
+.february_1 {
+    width: 374px;
+    height: 34px;
+    left: 609px;
+    top: 790px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+}
+
+.kop_sozlar {
+    width: 368px;
+    height: 117px;
+    left: 609px;
+    top: 835px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+.two {
+    margin-top: 50px;
+    background: #EDF7FA;
+    padding-bottom: 32px;
+}
+
+.ikkinchi {
+    margin-top: 150px;
+}
+
+.divcha {
+    display: flex;
+    gap: 30px;
+}
+
+.soz_1 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #21243D;
+}
+
+.soz_2 {
+    font-weight: 900;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #142850;
+    border-radius: 10px;
+    width: 60px;
+}
+
+.soz_3 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #8695A4;
+}
+
+.fa-brands {
+    font-size: 40px;
+    margin-top: 51px;
+
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+}
+
+.sectioncard {
+    height: 295px;
+    width: 100%;
+    border-radius: 4px;
+    background: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+    .list {
+        margin-left: 60px;
+    }
+
+    .person_image {
+        width: 100%;
+    }
+
+    .text_person {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        color: #21243D;
+        margin-top: 20px;
+    }
+
+    .text_all {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #21243D;
+    }
+
+    .button_person {
+        margin-left: 120px;
+    }
+
+    .making {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 38px;
+        color: #21243D;
+    }
+
+    .february {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: #21243D;
+    }
+
+
+}
